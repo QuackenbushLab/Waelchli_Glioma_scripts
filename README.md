@@ -1,6 +1,6 @@
 # Single Cell Analysis Pipeline
 
-1.  Download the PPI file and the motif file from GRAND: https://grand.networkmedicine.org/tissues/.
+1.  Download the [PPI file](https://granddb.s3.amazonaws.com/tissues/ppi/tissues_ppi.txt) and the [motif file](https://granddb.s3.amazonaws.com/tissues/motif/tissues_motif.txt) from GRAND.
 2.  Download the Waelchli dataset from GEO (GSE256493).
 3.  Install the [SCORPION](https://github.com/kuijjerlab/SCORPION) and [NetZoo](https://github.com/netZoo/netZooR) R packages.
 4.  Run **add_symbols_to_motif.R** to add gene symbols to the motif data, changing the following file paths:
